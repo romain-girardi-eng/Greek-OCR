@@ -1,0 +1,149 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Logs
+*.log
+logs/
+ocr_*.log
+greek_*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+.env
+.env.local
+.env.production
+config_local.py
+
+# API Keys and secrets
+secrets.json
+api_keys.json
+credentials.json
+
+# OCR output files
+output/
+results/
+exports/
+*.txt
+*.json
+!requirements.txt
+!config.py
+
+# Image cache
+cache/
+image_cache/
+*.cache
+
+# PDF temporary files
+temp_pdf/
+pdf_cache/
+
+# Backup files
+*.bak
+*.backup
+backup_*/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Pyre type checker
+.pyre/
+
+# Project specific
+# Ignore large log files that are already tracked
+# ocr_app_v5_simple.log
+# ocr_greek_mac.log
+
+# Ignore backup directories but keep structure
+backup_old_versions/*
+!backup_old_versions/.gitkeep
+backup_v4/*
+!backup_v4/.gitkeep
+
+# Ignore optimized version directories that might contain large files
+optimized_version/*
+!optimized_version/.gitkeep
+
+# Keep main optimized_mac_version but ignore logs
+optimized_mac_version/*.log 

@@ -1,0 +1,26 @@
+# OCR Grec Ancien v6.0 - Requirements Principaux
+# =============================================
+
+# Core dependencies
+Pillow>=10.0.0
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# PDF support
+pdf2image>=1.16.3
+
+# AI and API
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# UI and theming
+sv-ttk>=2.5.0
+
+# Performance and utilities
+psutil>=5.9.0
+
+# Development and debugging (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0 
